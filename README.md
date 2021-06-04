@@ -10,7 +10,9 @@ The single player version was created for Stevens Institute of Technology Intro 
 # How to Play 
 
 For single player type 's' (note this mode is impossible to win!)
+
 For multiplayer type 'm'
+
 To see instructions type 'i'
 
 To win, get three of your pieces in a row before your opponent.
