@@ -24,4 +24,6 @@ class loc
 	{
 		return y;
 	}
+	
+
 }

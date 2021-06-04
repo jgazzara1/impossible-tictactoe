@@ -15,6 +15,16 @@ class Piece
 		location = new loc(x,y);
 	}
 	
+	public void setLoc(loc place)
+	{
+		location = place;
+	}
+
+	public loc getLoc()
+	{
+		return location;
+	}
+	
 	public void setState(int player1)
 	{	
 		player = player1;
@@ -33,6 +43,15 @@ class Piece
 	public int gety()
 	{
 		return location.gety1();
+	}
+	
+	public boolean checkOpen()
+	{
+		if(player == -1)
+			return true;
+		else
+			return false;
+
 	}
 
 }
